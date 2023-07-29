@@ -2,7 +2,7 @@ import hero from "../images/image-jeremy.png";
 
 const HeaderCard = () => {
   return (
-    <div className=" my-9 h-[150px] flex flex-col bg-dark-blue rounded-xl grid-cols-1">
+    <div className=" my-9 h-[150px] flex flex-col bg-dark-blue rounded-xl  md:row-span-3 lg:row-span-2">
       <div className="flex bg-desaturated-blue h-[65%] items-center justify-center rounded-lg">
         <div className="border-white border-2 rounded-full">
           <img className="w-[45px]" src={hero} alt="/" />

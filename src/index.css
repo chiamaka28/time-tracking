@@ -4,5 +4,5 @@
 
 
 .my-container {
-  @apply w-[90%] mx-auto max-w-[800px];
+  @apply w-[90%] mx-auto max-w-[900px];
 }
