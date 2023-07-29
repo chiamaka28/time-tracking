@@ -120,12 +120,14 @@ const data = [
 function App() {
   
   return (
-    <div className=" w-full min-h-screen flex flex-col bg-very-dark-blue">
-      <HeaderCard />
-      <div className="">
-        {data.map((d, idx) => (
-          <Card data={d} key={idx} />
-        ))}
+    <div className=" w-full min-h-screen flex flex-col bg-very-dark-blue ">
+      <div className="my-container grid ">
+        <HeaderCard />
+        <div className="grid grid-cols-3">
+          {data.map((d, idx) => (
+            <Card data={d} key={idx} />
+          ))}
+        </div>
       </div>
     </div>
   )
