@@ -25,7 +25,7 @@ const Card = ({ data }) => {
               <img src={ellipsis} alt="/" />
             </div>
           </div>
-          <div className="flex justify-between items-center mt-3">
+          <div className="flex justify-between items-center mt-3 md:flex-col md:items-start">
             <p className="text-4xl">{timeframes.weekly.current}hrs</p>
             <p className="text-pale-blue">
               Last Week - {timeframes.weekly.previous}hrs
