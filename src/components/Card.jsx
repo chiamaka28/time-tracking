@@ -20,13 +20,13 @@ const Card = ({ data }) => {
       >
         <div className="relative bg-dark-blue rounded-t-lg mt-10 p-6 text-white ">
           <div className="flex justify-between items-center ">
-            <h2 className="font-bold text-lg">{title}</h2>
+            <h2 className="font-[400] text-lg">{title}</h2>
             <div className="cursor-pointer">
               <img src={ellipsis} alt="/" />
             </div>
           </div>
           <div className="flex justify-between items-center mt-3 md:flex-col md:items-start">
-            <p className="text-4xl">{timeframes.weekly.current}hrs</p>
+            <p className="text-4xl font-[500]">{timeframes.weekly.current}hrs</p>
             <p className="text-pale-blue">
               Last Week - {timeframes.weekly.previous}hrs
             </p>
