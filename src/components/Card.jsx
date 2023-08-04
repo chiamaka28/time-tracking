@@ -1,3 +1,4 @@
+
 import ellipsis from "../images/icon-ellipsis.svg";
 
 const Card = ({ data }) => {
@@ -26,10 +27,11 @@ const Card = ({ data }) => {
             </div>
           </div>
           <div className="flex justify-between items-center mt-3 md:flex-col md:items-start">
-            <p className="text-4xl font-[500]">{timeframes.weekly.current}hrs</p>
+            <p className="text-4xl font-[500]">{timeframes.daily.current}hrs</p>
             <p className="text-pale-blue">
-              Last Week - {timeframes.weekly.previous}hrs
+              Last Week - {timeframes.daily.previous}hrs
             </p>
+            {console.log(timeframes)}
           </div>
         </div>
       </div>
